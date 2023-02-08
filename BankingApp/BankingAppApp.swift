@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct BankingAppApp: App {
+    @StateObject private var userModel = UserModel()
     var body: some Scene {
         WindowGroup {
-            MainView(loginViewModel: LoginViewModel())
+            MainView(loginViewModel: LoginViewModel()).environmentObject(userModel)
         }
     }
 }

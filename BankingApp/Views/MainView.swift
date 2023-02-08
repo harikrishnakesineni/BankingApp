@@ -25,7 +25,7 @@ struct MainView: View {
                 .tabItem {
                     Label("Map", systemImage: "map.fill")
                 }
-            Settings(loginViewModel: loginViewModel)
+            Settings()
                 .tabItem {
                     Label("Settings", systemImage: "gear")
                 }

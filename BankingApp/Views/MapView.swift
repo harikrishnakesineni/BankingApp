@@ -18,7 +18,7 @@ struct MapView: View {
             .ignoresSafeArea()
             .accentColor(Color(.systemPink))
             .onAppear {
-                viewModel.checkIfLocarionServicesIsEnabled()
+                viewModel.checkIfLocationServicesIsEnabled()
             }
     }
 }
