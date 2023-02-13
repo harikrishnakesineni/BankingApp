@@ -14,7 +14,6 @@ struct UserListView: View {
     @State private var downloadProgress: Float = 0.0
     
     var body: some View {
-//        NavigationView {
             List {
                 ForEach(userModel.users, id: \.id) { user in
                     NavigationLink(destination: UserDetailView(user: user)) {

@@ -29,7 +29,7 @@ struct Company: View {
             }
             
             Section {
-                VideoPlayer(player: AVPlayer(url:  URL(string: "https://www.youtube.com/watch?v=ETSit2XvZjI")!))
+                VideoPlayer(player: AVPlayer(url:  URL(string: urlString)!))
                     .frame(width: 400, height: 300)
             } header: {
                 Text("More Info")

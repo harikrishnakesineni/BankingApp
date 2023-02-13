@@ -15,7 +15,6 @@ struct UserDetailView: View {
             HStack(alignment: .firstTextBaseline) {
                 Text("\(user.firstName) \(user.lastName)")
                     .bold()
-                
             }
            
             
@@ -34,9 +33,9 @@ struct UserDetailView: View {
                 }
             }
             .sheet(isPresented: $editMode) {
-//                    NavigationView {
+                NavigationStack {
                     EditUserView(user: user)
-             //   }
+                }
             }
     }
 }

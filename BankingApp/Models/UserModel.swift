@@ -39,6 +39,7 @@ class UserModel: ObservableObject {
         
         let data = try JSONEncoder().encode(createUserRequest)
         let user: CreateUserRequest = try await client.load(Resource(url: URL.getUsers, method: .post(data)))
+       
     }
     
     func updateUser(_ user: User) async throws {

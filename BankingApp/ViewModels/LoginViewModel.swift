@@ -8,14 +8,8 @@
 import Foundation
 
 class LoginViewModel: ObservableObject {
-    
-    
-    
     func isLoginValid(username: String, password: String) -> Bool {
-        
         return username == "Hari" || password == "Password" ? true : false
-        
-        
     }
     
 }

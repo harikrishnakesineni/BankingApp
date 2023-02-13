@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State private var email = "suneetha@lvstech.com"
+    @State private var email = "suneetha_n@hotmail.com"
     @State private var password = "suneetha"
-//    @ObservedObject var loginViewModel: LoginViewModel
     @State private var errorMessage = ""
     @EnvironmentObject private var userModel: UserModel
     @Environment (\.dismiss) private var dismiss
@@ -51,6 +50,7 @@ struct LoginView: View {
             } label: {
                 Text("Login")
             }.disabled(isFormNotValid)
+           
             
         }.padding()
             .toolbar {
@@ -58,7 +58,7 @@ struct LoginView: View {
                     Button {
                         isUserAddPresented = true
                     } label: {
-                        Text("Resistor")
+                        Text("Register")
                     }
 
                     }
