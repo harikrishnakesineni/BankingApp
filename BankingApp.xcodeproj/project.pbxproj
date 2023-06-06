@@ -149,7 +149,6 @@
 		473C8A70293BB2F7002D4363 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				47E7B77C297B02A70027EF05 /* Date+Extensions.swift */,
 				473C8A73293BB33F002D4363 /* MainView.swift */,
 				473C8A75293BB419002D4363 /* Home.swift */,
 				473C8A77293BB423002D4363 /* Company.swift */,
@@ -210,6 +209,7 @@
 		47ECA1B72970743B00191B37 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				47E7B77C297B02A70027EF05 /* Date+Extensions.swift */,
 				47ECA1B3297071BF00191B37 /* URL+Extensions.swift */,
 			);
 			path = Extensions;
