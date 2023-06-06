@@ -19,7 +19,7 @@ struct Company: View {
             }
             
             Section {
-                Image("Gus")
+                Image("lvslogo")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 200, height: 200)
@@ -29,7 +29,7 @@ struct Company: View {
             }
             
             Section {
-                VideoPlayer(player: AVPlayer(url:  URL(string: urlString)!))
+                VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: "Ocean", withExtension: ".mp4")!))
                     .frame(width: 400, height: 300)
             } header: {
                 Text("More Info")
