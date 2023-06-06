@@ -19,6 +19,19 @@
 		473C8A80293FA979002D4363 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473C8A7F293FA979002D4363 /* MapViewModel.swift */; };
 		473C8A822940FA65002D4363 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473C8A812940FA65002D4363 /* LoginView.swift */; };
 		473C8A842940FB96002D4363 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473C8A832940FB96002D4363 /* LoginViewModel.swift */; };
+		47AF37512A2EB65100998158 /* SettingsAfterLoggedIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37442A2EB65100998158 /* SettingsAfterLoggedIn.png */; };
+		47AF37522A2EB65100998158 /* DeleteUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37452A2EB65100998158 /* DeleteUser.png */; };
+		47AF37532A2EB65100998158 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37462A2EB65100998158 /* Login.png */; };
+		47AF37542A2EB65100998158 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37472A2EB65100998158 /* Settings.png */; };
+		47AF37552A2EB65100998158 /* Register.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37482A2EB65100998158 /* Register.png */; };
+		47AF37562A2EB65100998158 /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37492A2EB65100998158 /* Map.png */; };
+		47AF37572A2EB65100998158 /* UpdateUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF374A2A2EB65100998158 /* UpdateUser.png */; };
+		47AF37582A2EB65100998158 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF374B2A2EB65100998158 /* Home.png */; };
+		47AF37592A2EB65100998158 /* UserDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF374C2A2EB65100998158 /* UserDetail.png */; };
+		47AF375A2A2EB65100998158 /* ScheduledNotification.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF374D2A2EB65100998158 /* ScheduledNotification.png */; };
+		47AF375B2A2EB65100998158 /* RequestNotifications.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF374E2A2EB65100998158 /* RequestNotifications.png */; };
+		47AF375C2A2EB65100998158 /* HomeCalculatedInterest.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF374F2A2EB65100998158 /* HomeCalculatedInterest.png */; };
+		47AF375F2A2EB75200998158 /* UserList.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF375E2A2EB75200998158 /* UserList.png */; };
 		47E7B76B297708730027EF05 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7B76A297708730027EF05 /* User.swift */; };
 		47E7B76D2977096F0027EF05 /* LoginRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7B76C2977096F0027EF05 /* LoginRequestBody.swift */; };
 		47E7B76F297709EC0027EF05 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7B76E297709EC0027EF05 /* LoginResponse.swift */; };
@@ -48,6 +61,19 @@
 		473C8A7F293FA979002D4363 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		473C8A812940FA65002D4363 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		473C8A832940FB96002D4363 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		47AF37442A2EB65100998158 /* SettingsAfterLoggedIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsAfterLoggedIn.png; sourceTree = "<group>"; };
+		47AF37452A2EB65100998158 /* DeleteUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteUser.png; sourceTree = "<group>"; };
+		47AF37462A2EB65100998158 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
+		47AF37472A2EB65100998158 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		47AF37482A2EB65100998158 /* Register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Register.png; sourceTree = "<group>"; };
+		47AF37492A2EB65100998158 /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
+		47AF374A2A2EB65100998158 /* UpdateUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpdateUser.png; sourceTree = "<group>"; };
+		47AF374B2A2EB65100998158 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		47AF374C2A2EB65100998158 /* UserDetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserDetail.png; sourceTree = "<group>"; };
+		47AF374D2A2EB65100998158 /* ScheduledNotification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScheduledNotification.png; sourceTree = "<group>"; };
+		47AF374E2A2EB65100998158 /* RequestNotifications.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RequestNotifications.png; sourceTree = "<group>"; };
+		47AF374F2A2EB65100998158 /* HomeCalculatedInterest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeCalculatedInterest.png; sourceTree = "<group>"; };
+		47AF375E2A2EB75200998158 /* UserList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserList.png; sourceTree = "<group>"; };
 		47E7B76A297708730027EF05 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		47E7B76C2977096F0027EF05 /* LoginRequestBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestBody.swift; sourceTree = "<group>"; };
 		47E7B76E297709EC0027EF05 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
@@ -99,6 +125,7 @@
 				473C8A71293BB2FC002D4363 /* Models */,
 				473C8A70293BB2F7002D4363 /* Views */,
 				473C8A62293BB2D6002D4363 /* BankingAppApp.swift */,
+				47AF37432A2EB65100998158 /* BankingAppScreenshots */,
 				473C8A64293BB2D6002D4363 /* ContentView.swift */,
 				473C8A66293BB2D8002D4363 /* Assets.xcassets */,
 				473C8A68293BB2D8002D4363 /* Preview Content */,
@@ -151,6 +178,26 @@
 				473C8A832940FB96002D4363 /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		47AF37432A2EB65100998158 /* BankingAppScreenshots */ = {
+			isa = PBXGroup;
+			children = (
+				47AF37442A2EB65100998158 /* SettingsAfterLoggedIn.png */,
+				47AF37452A2EB65100998158 /* DeleteUser.png */,
+				47AF37462A2EB65100998158 /* Login.png */,
+				47AF37472A2EB65100998158 /* Settings.png */,
+				47AF37482A2EB65100998158 /* Register.png */,
+				47AF37492A2EB65100998158 /* Map.png */,
+				47AF374A2A2EB65100998158 /* UpdateUser.png */,
+				47AF374B2A2EB65100998158 /* Home.png */,
+				47AF374C2A2EB65100998158 /* UserDetail.png */,
+				47AF375E2A2EB75200998158 /* UserList.png */,
+				47AF374D2A2EB65100998158 /* ScheduledNotification.png */,
+				47AF374E2A2EB65100998158 /* RequestNotifications.png */,
+				47AF374F2A2EB65100998158 /* HomeCalculatedInterest.png */,
+			);
+			path = BankingAppScreenshots;
 			sourceTree = "<group>";
 		};
 		47ECA1B72970743B00191B37 /* Extensions */ = {
@@ -228,8 +275,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47AF375C2A2EB65100998158 /* HomeCalculatedInterest.png in Resources */,
+				47AF37562A2EB65100998158 /* Map.png in Resources */,
+				47AF37512A2EB65100998158 /* SettingsAfterLoggedIn.png in Resources */,
+				47AF37582A2EB65100998158 /* Home.png in Resources */,
+				47AF37592A2EB65100998158 /* UserDetail.png in Resources */,
 				473C8A6A293BB2D8002D4363 /* Preview Assets.xcassets in Resources */,
+				47AF37542A2EB65100998158 /* Settings.png in Resources */,
+				47AF37572A2EB65100998158 /* UpdateUser.png in Resources */,
+				47AF375F2A2EB75200998158 /* UserList.png in Resources */,
+				47AF375B2A2EB65100998158 /* RequestNotifications.png in Resources */,
 				473C8A67293BB2D8002D4363 /* Assets.xcassets in Resources */,
+				47AF375A2A2EB65100998158 /* ScheduledNotification.png in Resources */,
+				47AF37532A2EB65100998158 /* Login.png in Resources */,
+				47AF37522A2EB65100998158 /* DeleteUser.png in Resources */,
+				47AF37552A2EB65100998158 /* Register.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

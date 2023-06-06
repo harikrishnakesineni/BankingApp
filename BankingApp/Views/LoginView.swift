@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State private var email = "suneetha_n@hotmail.com"
-    @State private var password = "suneetha"
+    @State private var email = "Bankinguser@gmail.com"
+    @State private var password = "password"
     @State private var errorMessage = ""
     @EnvironmentObject private var userModel: UserModel
     @Environment (\.dismiss) private var dismiss
