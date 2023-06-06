@@ -13,12 +13,6 @@ struct Company: View {
     var body: some View {
         Form {
             Section {
-                Label("Welcome HariKrishna", systemImage: "person.fill")
-            } header: {
-                Text("UserInfo")
-            }
-            
-            Section {
                 Image("lvslogo")
                     .resizable()
                     .scaledToFit()

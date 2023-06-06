@@ -21,7 +21,6 @@
 		473C8A842940FB96002D4363 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473C8A832940FB96002D4363 /* LoginViewModel.swift */; };
 		47AF37512A2EB65100998158 /* SettingsAfterLoggedIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37442A2EB65100998158 /* SettingsAfterLoggedIn.png */; };
 		47AF37522A2EB65100998158 /* DeleteUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37452A2EB65100998158 /* DeleteUser.png */; };
-		47AF37532A2EB65100998158 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37462A2EB65100998158 /* Login.png */; };
 		47AF37542A2EB65100998158 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37472A2EB65100998158 /* Settings.png */; };
 		47AF37552A2EB65100998158 /* Register.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37482A2EB65100998158 /* Register.png */; };
 		47AF37562A2EB65100998158 /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37492A2EB65100998158 /* Map.png */; };
@@ -33,7 +32,8 @@
 		47AF375C2A2EB65100998158 /* HomeCalculatedInterest.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF374F2A2EB65100998158 /* HomeCalculatedInterest.png */; };
 		47AF375F2A2EB75200998158 /* UserList.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF375E2A2EB75200998158 /* UserList.png */; };
 		47AF37612A2FB47B00998158 /* Ocean.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37602A2FB47B00998158 /* Ocean.mp4 */; };
-		47AF37632A2FB64500998158 /* Company.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37622A2FB64500998158 /* Company.png */; };
+		47AF37652A2FC1F900998158 /* Company.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37642A2FC1F900998158 /* Company.png */; };
+		47AF37672A2FC20700998158 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37662A2FC20700998158 /* Login.png */; };
 		47E7B76B297708730027EF05 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7B76A297708730027EF05 /* User.swift */; };
 		47E7B76D2977096F0027EF05 /* LoginRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7B76C2977096F0027EF05 /* LoginRequestBody.swift */; };
 		47E7B76F297709EC0027EF05 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7B76E297709EC0027EF05 /* LoginResponse.swift */; };
@@ -65,7 +65,6 @@
 		473C8A832940FB96002D4363 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		47AF37442A2EB65100998158 /* SettingsAfterLoggedIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsAfterLoggedIn.png; sourceTree = "<group>"; };
 		47AF37452A2EB65100998158 /* DeleteUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteUser.png; sourceTree = "<group>"; };
-		47AF37462A2EB65100998158 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
 		47AF37472A2EB65100998158 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
 		47AF37482A2EB65100998158 /* Register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Register.png; sourceTree = "<group>"; };
 		47AF37492A2EB65100998158 /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
@@ -77,7 +76,8 @@
 		47AF374F2A2EB65100998158 /* HomeCalculatedInterest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeCalculatedInterest.png; sourceTree = "<group>"; };
 		47AF375E2A2EB75200998158 /* UserList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserList.png; sourceTree = "<group>"; };
 		47AF37602A2FB47B00998158 /* Ocean.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ocean.mp4; sourceTree = "<group>"; };
-		47AF37622A2FB64500998158 /* Company.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Company.png; sourceTree = "<group>"; };
+		47AF37642A2FC1F900998158 /* Company.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Company.png; sourceTree = "<group>"; };
+		47AF37662A2FC20700998158 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
 		47E7B76A297708730027EF05 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		47E7B76C2977096F0027EF05 /* LoginRequestBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestBody.swift; sourceTree = "<group>"; };
 		47E7B76E297709EC0027EF05 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
@@ -191,9 +191,9 @@
 			children = (
 				47AF37442A2EB65100998158 /* SettingsAfterLoggedIn.png */,
 				47AF37452A2EB65100998158 /* DeleteUser.png */,
-				47AF37462A2EB65100998158 /* Login.png */,
-				47AF37622A2FB64500998158 /* Company.png */,
 				47AF37472A2EB65100998158 /* Settings.png */,
+				47AF37662A2FC20700998158 /* Login.png */,
+				47AF37642A2FC1F900998158 /* Company.png */,
 				47AF37482A2EB65100998158 /* Register.png */,
 				47AF37492A2EB65100998158 /* Map.png */,
 				47AF374A2A2EB65100998158 /* UpdateUser.png */,
@@ -283,10 +283,11 @@
 			files = (
 				47AF375C2A2EB65100998158 /* HomeCalculatedInterest.png in Resources */,
 				47AF37562A2EB65100998158 /* Map.png in Resources */,
+				47AF37672A2FC20700998158 /* Login.png in Resources */,
 				47AF37512A2EB65100998158 /* SettingsAfterLoggedIn.png in Resources */,
 				47AF37582A2EB65100998158 /* Home.png in Resources */,
-				47AF37632A2FB64500998158 /* Company.png in Resources */,
 				47AF37592A2EB65100998158 /* UserDetail.png in Resources */,
+				47AF37652A2FC1F900998158 /* Company.png in Resources */,
 				473C8A6A293BB2D8002D4363 /* Preview Assets.xcassets in Resources */,
 				47AF37542A2EB65100998158 /* Settings.png in Resources */,
 				47AF37572A2EB65100998158 /* UpdateUser.png in Resources */,
@@ -294,7 +295,6 @@
 				47AF375B2A2EB65100998158 /* RequestNotifications.png in Resources */,
 				473C8A67293BB2D8002D4363 /* Assets.xcassets in Resources */,
 				47AF375A2A2EB65100998158 /* ScheduledNotification.png in Resources */,
-				47AF37532A2EB65100998158 /* Login.png in Resources */,
 				47AF37522A2EB65100998158 /* DeleteUser.png in Resources */,
 				47AF37612A2FB47B00998158 /* Ocean.mp4 in Resources */,
 				47AF37552A2EB65100998158 /* Register.png in Resources */,

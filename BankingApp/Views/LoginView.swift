@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State private var email = "Bankinguser@gmail.com"
+    @State private var email = "BankingAppuser@gmail.com"
     @State private var password = "password"
     @State private var errorMessage = ""
     @EnvironmentObject private var userModel: UserModel
